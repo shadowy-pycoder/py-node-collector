@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: py_node_collector
-Version: 0.0.1
+Version: 0.0.2
 Summary: python wrapper for https://github.com/shadowy-pycoder/go-node-collector
 Home-page: https://github.com/shadowy-pycoder/py-node-collector
 Author: shadowy-pycoder
@@ -19,6 +19,11 @@ License-File: LICENSE
 
 A python wrapper for [Prometheus Node Collector](https://github.com/shadowy-pycoder/go-node-collector) 
 
+# Installation
+
+```shell
+pip install py-node-collector
+```
 
 # Usage
 

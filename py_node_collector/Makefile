@@ -5,7 +5,7 @@
 GOCMD=go
 GOBUILD=$(GOCMD) build -mod=mod
 GOIMPORTS=goimports
-PYTHON=/home/mugorelov/workspace/github.com/shadowy-pycoder/py-node-collector/venv312/bin/python3.12
+PYTHON=/home/mugorelov/workspace/github.com/shadowy-pycoder/py-node-collector/venv/bin/python3.12
 LIBEXT=.so
 
 # get the CC and flags used to build python:
