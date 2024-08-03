@@ -16,5 +16,12 @@ print(metric)
 
 ```shell
 # Output
-Metric(go_gc_duration_seconds, A summary of the pause duration of garbage collection cycles., summary, , [Sample(name='go_gc_duration_seconds', labels={'quantile': '0'}, value=0.0, timestamp=None, exemplar=None), Sample(name='go_gc_duration_seconds', labels={'quantile': '0.25'}, value=0.0, timestamp=None, exemplar=None), Sample(name='go_gc_duration_seconds', labels={'quantile': '0.5'}, value=0.0, timestamp=None, exemplar=None), Sample(name='go_gc_duration_seconds', labels={'quantile': '0.75'}, value=0.0, timestamp=None, exemplar=None), Sample(name='go_gc_duration_seconds', labels={'quantile': '1'}, value=0.0, timestamp=None, exemplar=None), Sample(name='go_gc_duration_seconds_sum', labels={}, value=0.0, timestamp=None, exemplar=None), Sample(name='go_gc_duration_seconds_count', labels={}, value=0.0, timestamp=None, exemplar=None)])
+Metric(go_gc_duration_seconds, A summary of the pause duration of garbage collection cycles., summary, , 
+[Sample(name='go_gc_duration_seconds', labels={'quantile': '0'}, value=0.0, timestamp=None, exemplar=None), 
+Sample(name='go_gc_duration_seconds', labels={'quantile': '0.25'}, value=0.0, timestamp=None, exemplar=None), 
+Sample(name='go_gc_duration_seconds', labels={'quantile': '0.5'}, value=0.0, timestamp=None, exemplar=None), 
+Sample(name='go_gc_duration_seconds', labels={'quantile': '0.75'}, value=0.0, timestamp=None, exemplar=None), 
+Sample(name='go_gc_duration_seconds', labels={'quantile': '1'}, value=0.0, timestamp=None, exemplar=None), 
+Sample(name='go_gc_duration_seconds_sum', labels={}, value=0.0, timestamp=None, exemplar=None), 
+Sample(name='go_gc_duration_seconds_count', labels={}, value=0.0, timestamp=None, exemplar=None)])
 ```

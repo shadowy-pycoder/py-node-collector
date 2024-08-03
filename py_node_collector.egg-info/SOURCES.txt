@@ -1,3 +1,6 @@
+LICENSE
+README.md
+pyproject.toml
 setup.py
 py_node_collector/__init__.py
 py_node_collector/_collector.cpython-310-x86_64-linux-gnu.so

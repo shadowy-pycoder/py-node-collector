@@ -11,5 +11,5 @@ setuptools.setup(
     author="shadowy-pycoder",
     author_email="shadowy-pycoder@example.com",
     platforms="Linux",
-    license="MIT",
+    url="https://github.com/shadowy-pycoder/py-node-collector",
 )

@@ -1,8 +1,44 @@
 Metadata-Version: 2.1
-Name: py_node_collector
+Name: py-node-collector
 Version: 0.0.1
 Summary: python wrapper for https://github.com/shadowy-pycoder/go-node-collector
+Home-page: https://github.com/shadowy-pycoder/py-node-collector
 Author: shadowy-pycoder
-Author-email: shadowy-pycoder@example.com
-License: MIT
+Author-email: shadowy-pycoder <shadowy-pycoder@example.com>
+Project-URL: Homepage, https://github.com/shadowy-pycoder/py-node-collector
+Project-URL: Issues, https://github.com/shadowy-pycoder/py-node-collector/issues
 Platform: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Linux
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Node Collector
+
+A python wrapper for [Prometheus Node Collector](https://github.com/shadowy-pycoder/go-node-collector) 
+
+
+# Usage
+
+
+```python
+from prometheus_client import parser
+from py_node_collector import collector
+
+metric = next(parser.text_string_to_metric_families(collector.collect()))
+print(metric)
+```
+
+```shell
+# Output
+Metric(go_gc_duration_seconds, A summary of the pause duration of garbage collection cycles., summary, , 
+[Sample(name='go_gc_duration_seconds', labels={'quantile': '0'}, value=0.0, timestamp=None, exemplar=None), 
+Sample(name='go_gc_duration_seconds', labels={'quantile': '0.25'}, value=0.0, timestamp=None, exemplar=None), 
+Sample(name='go_gc_duration_seconds', labels={'quantile': '0.5'}, value=0.0, timestamp=None, exemplar=None), 
+Sample(name='go_gc_duration_seconds', labels={'quantile': '0.75'}, value=0.0, timestamp=None, exemplar=None), 
+Sample(name='go_gc_duration_seconds', labels={'quantile': '1'}, value=0.0, timestamp=None, exemplar=None), 
+Sample(name='go_gc_duration_seconds_sum', labels={}, value=0.0, timestamp=None, exemplar=None), 
+Sample(name='go_gc_duration_seconds_count', labels={}, value=0.0, timestamp=None, exemplar=None)])
+```
