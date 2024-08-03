@@ -2,6 +2,11 @@
 
 A python wrapper for [Prometheus Node Collector](https://github.com/shadowy-pycoder/go-node-collector) 
 
+# Installation
+
+```shell
+pip install py-node-collector
+```
 
 # Usage
 
