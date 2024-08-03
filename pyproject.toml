@@ -1,0 +1,26 @@
+[project]
+name = "py_node_collector"
+version = "0.0.1"
+authors = [
+  { name="shadowy-pycoder", email="shadowy-pycoder@example.com" },
+]
+description = "python wrapper for https://github.com/shadowy-pycoder/go-node-collector"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Linux",
+]
+
+[project.urls]
+Homepage = "https://github.com/shadowy-pycoder/py-node-collector"
+Issues = "https://github.com/shadowy-pycoder/py-node-collector/issues"
+
+[build-system]
+requires = [
+    "setuptools", 
+    "wheel"
+]
+
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: py_node_collector
+Version: 0.0.1
+Summary: python wrapper for https://github.com/shadowy-pycoder/go-node-collector
+Author: shadowy-pycoder
+Author-email: shadowy-pycoder@example.com
+License: MIT
+Platform: Linux
