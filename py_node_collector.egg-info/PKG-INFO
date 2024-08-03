@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: py-node-collector
+Name: py_node_collector
 Version: 0.0.1
 Summary: python wrapper for https://github.com/shadowy-pycoder/go-node-collector
 Home-page: https://github.com/shadowy-pycoder/py-node-collector
@@ -10,7 +10,7 @@ Project-URL: Issues, https://github.com/shadowy-pycoder/py-node-collector/issues
 Platform: Linux
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: Linux
+Classifier: Operating System :: POSIX :: Linux
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 License-File: LICENSE
