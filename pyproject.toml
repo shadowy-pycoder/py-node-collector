@@ -1,17 +1,24 @@
 [project]
 name = "py_node_collector"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="shadowy-pycoder", email="shadowy-pycoder@example.com" },
 ]
-description = "python wrapper for https://github.com/shadowy-pycoder/go-node-collector"
-readme = "README.md"
+description = "Python wrapper for Prometheus Node Collector https://github.com/shadowy-pycoder/go-node-collector"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {file = "LICENSE"}
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "License :: OSI Approved :: MIT License",
     "Operating System :: POSIX :: Linux",
 ]
+keywords = ["prometheus", "metrics", "prometheus-collector", "prometheus-node-exporter"]
 
 [project.urls]
 Homepage = "https://github.com/shadowy-pycoder/py-node-collector"

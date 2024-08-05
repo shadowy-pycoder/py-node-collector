@@ -3,7 +3,11 @@ README.md
 pyproject.toml
 setup.py
 py_node_collector/__init__.py
+py_node_collector/_collector.cpython-310-x86_64-linux-gnu.so
+py_node_collector/_collector.cpython-311-x86_64-linux-gnu.so
 py_node_collector/_collector.cpython-312-x86_64-linux-gnu.so
+py_node_collector/_collector.cpython-38-x86_64-linux-gnu.so
+py_node_collector/_collector.cpython-39-x86_64-linux-gnu.so
 py_node_collector/build.py
 py_node_collector/collector.py
 py_node_collector/go.py
