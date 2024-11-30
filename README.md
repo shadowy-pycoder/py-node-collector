@@ -1,4 +1,5 @@
 # Python Node Collector
+![PyPI - Downloads](https://img.shields.io/pypi/dm/py-node-collector)
 
 A python wrapper for [Prometheus Node Collector](https://github.com/shadowy-pycoder/go-node-collector) 
 
